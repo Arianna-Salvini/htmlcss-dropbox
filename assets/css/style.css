@@ -9,6 +9,10 @@ body{
     color: var(--drop-dark);
 }
 
+main{
+    background-color: var(--drop-lighter);
+}
+
 .container{
     max-width: 1900px;
     margin: auto;
@@ -48,30 +52,59 @@ body{
     margin: auto;
 }
 
-
-/* Debag */
-
-.debug#header{
-    height: 80px;
+.container_small{
+    width: calc((100%/12) *6);
+    margin: auto;
+    padding-top: 3rem;
 }
 
-.debug#main{
-    height: 900px;
+h2, h3{
+    padding: 2rem 0 1rem;
 }
 
-.debug#footer{
-    height: 150px;
+h2{
+    font-size: 2rem;
 }
+
+h3{
+    font-size: 1.4rem;
+}
+
+.left{
+    width: calc((100% / 12) *8);
+}
+
+.right{
+    width: calc((100% / 12) *4);
+}
+
+.btn_contact{
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+    color: var(--drop-lighter);
+    background-color: var(--drop-secondary);
+    border: none;
+    margin-top: 2rem;
+}
+/* Debug */
 
 .debug.hero{
     height: 750px;
+}
+
+.debug.container_plans_option{
+    height: 1000px;
+}
+
+.debug.col4 {
+    height: 500px;
 }
 
 .debug{
     border: 1px dotted black;
 }
 
-/* /Debag */
+/* /Debug */
 
 /* Header */
 .navigation_bar{
@@ -89,5 +122,47 @@ body{
 .hero>.container_medium{
     padding-top: 4rem;
 }
+
+.option_billing{
+    margin: 2rem 0;
+}
+
+/*  Card pay plan section */
+.container_plans_option
+{
+  width: 100%;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col4
+{
+  width: calc((100% / 12) * 4);
+  padding: 1rem;
+}
+
+/* section "find a partner" */
+
+.find_partner_top{
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.find_partner_bottom.left{
+    padding-left: 2.5rem;
+}
+
+strong{
+    display: block;
+}
+
+.find_partner_bottom>p{
+    padding: 2rem 0;
+}
+
 
 /* /Main */
