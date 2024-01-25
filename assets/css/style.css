@@ -6,4 +6,72 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    color: var(--drop-dark);
 }
+
+.container{
+    max-width: 1900px;
+    margin: auto;
+}
+
+#header, #main{
+    background-color: var(--drop-lighter);
+}
+
+#footer{
+    background-color: var(--drop-dark);
+}
+
+/* Utility */
+
+:root{
+    --drop-primary:#b4d0e7;
+    --drop-secondary:#0061ff;
+    --drop-dark:#000000;
+    --drop-lighter:#ffffff;
+    --drop-light:#dedede;
+    --drop-highlight:#61082b;
+}
+
+
+.container_large{
+    width: 98%;
+    margin: auto;
+}
+
+.d_flex{
+    display: flex;
+}
+
+/* Debag */
+
+.debug#header{
+    height: 80px;
+}
+
+.debug#main{
+    height: 900px;
+}
+
+.debug#footer{
+    height: 150px;
+}
+
+.debug{
+    border: 1px dotted black;
+}
+
+/* /Debag */
+
+/* Header */
+.navigation_bar{
+    height: 80px;
+    width: 50%;
+}
+
+/* /Header */
+
+/* Main */
+
+
+/* /Main */
