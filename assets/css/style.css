@@ -33,15 +33,23 @@ body{
     --drop-highlight:#61082b;
 }
 
+.d_flex{
+    display: flex;
+}
 
 .container_large{
     width: 98%;
     margin: auto;
 }
 
-.d_flex{
-    display: flex;
+.container_medium{
+    width: calc((100%/12) *8);
+    height: 100%;
+    margin: auto;
+    padding-top: 4rem;
+
 }
+
 
 /* Debag */
 
@@ -55,6 +63,10 @@ body{
 
 .debug#footer{
     height: 150px;
+}
+
+.debug.hero{
+    height: 750px;
 }
 
 .debug{
@@ -72,6 +84,8 @@ body{
 /* /Header */
 
 /* Main */
-
+.hero{
+    background-color: var(--drop-primary);
+}
 
 /* /Main */
