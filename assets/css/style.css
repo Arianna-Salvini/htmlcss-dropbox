@@ -147,12 +147,12 @@ h3{
 
 /* section "find a partner" */
 
-.find_partner_top{
+.enterprise_plan_top{
     padding: 0.7rem;
     text-align: center;
 }
 
-.find_partner_bottom.left{
+.enterprise_plan_bottom.left{
     padding-left: 2.5rem;
 }
 
@@ -160,9 +160,28 @@ strong{
     display: block;
 }
 
-.find_partner_bottom>p{
+.enterprise_plan_bottom>p{
     padding: 2rem 0;
 }
 
+.find_partner{
+    width: 100%;
+    height: 550px;  
+    overflow: hidden;          /* eliminare */
+}
+
+.partner_img{
+    height: 100%;
+    width: 100%;
+    padding-right: 3rem;
+
+}
+
+.light{
+    color: var(--drop-dark);
+    background-color: var(--drop-lighter);
+    border: 1px solid var(--drop-dark);
+
+}
 
 /* /Main */
