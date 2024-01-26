@@ -217,6 +217,18 @@ strong {
     aspect-ratio: 1;
 }
 
+/* free start section */
+
+.dropbox_business_start{
+    background-color: var(--drop-primary);
+}
+
+.highlight_text{
+    color: var(--drop-highlight);
+    margin-bottom: 2.7rem;
+}
+
+/* FAQ section */
 
 
 
