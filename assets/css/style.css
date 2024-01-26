@@ -1,84 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     color: var(--drop-dark);
 }
 
-main{
+main {
     background-color: var(--drop-lighter);
 }
 
-.container{
+.container {
     max-width: 1900px;
     margin: auto;
 }
 
-#header, #main{
+#header,
+#main {
     background-color: var(--drop-lighter);
 }
 
-#footer{
+#footer {
     background-color: var(--drop-dark);
 }
 
 /* Utility */
 
-:root{
-    --drop-primary:#b4d0e7;
-    --drop-secondary:#0061ff;
-    --drop-dark:#000000;
-    --drop-lighter:#ffffff;
-    --drop-light:#dedede;
-    --drop-highlight:#61082b;
+:root {
+    --drop-primary: #b4d0e7;
+    --drop-secondary: #0061ff;
+    --drop-dark: #000000;
+    --drop-lighter: #ffffff;
+    --drop-light: #dedede;
+    --drop-highlight: #61082b;
 }
 
-.d_flex{
+.d_flex {
     display: flex;
 }
 
-.container_large{
+.container_large {
     width: 98%;
     margin: auto;
 }
 
-.container_medium{
+.container_medium {
     width: calc((100%/12) *8);
     height: 100%;
     margin: auto;
 }
 
-.container_small{
+.container_small {
     width: calc((100%/12) *6);
     margin: auto;
     padding-top: 3rem;
 }
 
-h2, h3{
+h2,
+h3 {
     padding: 2rem 0 1rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1.4rem;
 }
 
-.left{
+.left {
     width: calc((100% / 12) *8);
 }
 
-.right{
+.right {
     width: calc((100% / 12) *4);
 }
 
-.btn_contact{
+.btn_contact {
     font-size: 1rem;
     padding: 0.7rem 2rem;
     color: var(--drop-lighter);
@@ -86,13 +88,14 @@ h3{
     border: none;
     margin-top: 2rem;
 }
+
 /* Debug */
 
-.debug.hero{
+.debug.hero {
     height: 750px;
 }
 
-.debug.container_plans_option{
+.debug.container_plans_option {
     height: 1300px;
 }
 
@@ -100,14 +103,18 @@ h3{
     height: 950px;
 }
 
-.debug{
+.how_to>.col4.debug {
+    height: 450px;
+}
+
+.debug {
     border: 1px dotted black;
 }
 
 /* /Debug */
 
 /* Header */
-.navigation_bar{
+.navigation_bar {
     height: 80px;
     width: 50%;
 }
@@ -115,73 +122,102 @@ h3{
 /* /Header */
 
 /* Main */
-.hero{
+.hero {
     background-color: var(--drop-primary);
 }
 
-.hero>.container_medium{
+.hero>.container_medium {
     padding-top: 4rem;
 }
 
-.option_billing{
+.option_billing {
     margin: 2rem 0;
 }
 
 /*  Card pay plan section */
-.container_plans_option
-{
-  width: 100%;
+.container_plans_option,
+.container_how_to {
+    width: 100%;
 }
 
-.row
-{
-  display: flex;
-  flex-wrap: wrap;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.col4
-{
-  width: calc((100% / 12) * 4);
-  padding: 1rem;
+.col4 {
+    width: calc((100% / 12) * 4);
 }
 
 /* section "find a partner" */
 
-.enterprise_plan_top{
+.enterprise_plan_top {
     padding: 0.7rem;
     text-align: center;
 }
 
-.enterprise_plan_bottom.left{
+.enterprise_plan_bottom.left {
     padding-left: 2.5rem;
 }
 
-strong{
+strong {
     display: block;
 }
 
-.enterprise_plan_bottom>p{
+.enterprise_plan_bottom>p {
     padding: 2rem 0;
 }
 
-.find_partner{
+.find_partner {
     width: 100%;
-    height: 550px;                /* eliminare */
+    height: 550px;
+    /* eliminare */
     padding-bottom: 3rem;
-    overflow: hidden;          
+    overflow: hidden;
 }
 
-.partner_img{
+.partner_img {
     height: 100%;
     width: 100%;
     padding-right: 3rem;
 }
 
-.light{
+.light {
     color: var(--drop-dark);
     background-color: var(--drop-lighter);
     border: 1px solid var(--drop-dark);
 
 }
+
+/* dropbox business */
+.dropbox_business {
+    width: 100%;
+    padding-bottom: 3rem;
+    overflow: hidden;
+}
+
+/* Partners */
+
+.row_partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_partners>.col4 {
+    aspect-ratio: 1;
+}
+
+.square_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+
+
 
 /* /Main */
