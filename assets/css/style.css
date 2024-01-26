@@ -230,6 +230,10 @@ strong {
 
 /* FAQ section */
 
+.faq_divider{
+    padding-bottom: 2.7rem;
+    border-bottom: 2px solid var(--drop-light);
 
+}
 
 /* /Main */
