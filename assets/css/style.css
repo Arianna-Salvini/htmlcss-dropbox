@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px dashed black; */
+    border: 1px dashed black;
 }
 
 body {
@@ -37,6 +37,18 @@ main {
     --drop-lighter: #ffffff;
     --drop-light: #dedede;
     --drop-highlight: #61082b;
+    --drop-square1:#a2d39b;
+    --drop-square1-border:#d1e9cd;
+    --drop-square2:#61082b;
+    --drop-square3:#0093ce;
+    --drop-square4:#ff1c1c;
+    --drop-square5:#d5001f;
+    --drop-square6:#b4d0e7;
+    --drop-square7:#0d2481;
+    --drop-square8:#ffd830;
+    --drop-central-square:#f5f5f5;
+
+
 }
 
 .d_flex {
@@ -112,11 +124,6 @@ h3 {
 .fa-check{
     color: var(--drop-secondary);
 }
-
-/* Debug */
-
-
-/* /Debug */
 
 /* Header */
 .navigation_bar {
@@ -319,7 +326,77 @@ strong {
 .square {
     width: 50%;
     aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
 }
+
+
+.partner_logo{
+    width: 60%;
+    filter: invert();
+}
+
+.n1{
+    background-color: var(--drop-square1);
+    border: 1rem solid var(--drop-square1-border)
+}
+
+.n2{
+    background-color: var(--drop-square2);
+}
+
+.n3{
+    background-color: var(--drop-square3);
+}
+
+.n4{
+    background-color:var(--drop-square4) ;
+}
+
+.n5{
+    background-color:var(--drop-square5) ;
+}
+
+.n6{
+    background-color: var(--drop-square6);
+}
+
+.n7{
+    background-color: var(--drop-square7);
+}
+
+.n8{
+    background-color: var(--drop-square8);
+}
+
+.central_square{
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: var(--drop-central-square);
+    color: var(--drop-dark);
+}
+
+.designit_logo{
+    margin: 3rem;
+    width: 50%;
+}
+
+.rule_partner_logo_central_square{
+    background-color:var(--drop-light);
+    padding-top: 1px;
+    margin: 0 30rem 3rem 3rem ;
+}
+
+.central_square>p {
+    margin: 0 3rem;
+}
+
+.quote{
+    margin: 4rem 3rem;
+}
+
+
+
 /* #endregion Partners */
 
 /* free start section */
