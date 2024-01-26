@@ -71,7 +71,7 @@ h3 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 h3 {
@@ -115,18 +115,6 @@ h3 {
 
 /* Debug */
 
-.debug.hero {
-    height: 750px;
-}
-
-.debug.container_plans_option {
-    height: 1300px;
-}
-
-
-.how_to>.col4.debug {
-    height: 450px;
-}
 
 /* /Debug */
 
@@ -181,8 +169,7 @@ h3 {
 
 
 /*  #region Card pay plan section */
-.container_plans_option,
-.container_how_to {
+.container_plans_option{
     width: 100%;
     margin-left: -1rem;
     margin-right: -1rem;
@@ -271,12 +258,29 @@ strong {
 
 }
 
+/* How to */
+.container_how_to{
+    padding-top: 1rem 0;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+}
+.how_to_img{
+    width: 100%;
+}
+
+.card_bottom>h4,
+.card_bottom>p,
+.how_to_img {
+    padding: 1rem 1.5rem;
+}
+
 
 /* dropbox business */
+
 .dropbox_business {
     width: 100%;
     padding-bottom: 3rem;
-    overflow: hidden;
 }
 
 .find_partner_contact>p {
@@ -287,7 +291,7 @@ strong {
     padding-top: 5rem;
 }
 
-/* Partners */
+/* #region Partners */
 
 .row_partners {
     display: flex;
@@ -307,6 +311,7 @@ strong {
     width: 50%;
     aspect-ratio: 1;
 }
+/* #endregion Partners */
 
 /* free start section */
 
