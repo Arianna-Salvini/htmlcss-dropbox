@@ -361,6 +361,11 @@ strong {
     justify-content: space-between;
 }
 
+.footer_list a{
+    color: var(--drop-lighter);
+    text-decoration: none;
+}
+
 .footer_link>ul{
     margin: 0 1rem;
 
