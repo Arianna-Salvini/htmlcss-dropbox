@@ -275,6 +275,10 @@ strong {
     padding: 1rem 1.5rem;
 }
 
+.card_top.how_to{
+    border: none;
+}
+
 /* Call to action */
 
 .findout_title{
