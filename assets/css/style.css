@@ -57,7 +57,7 @@ main {
 .container_small {
     width: calc((100%/12) *6);
     margin: auto;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 h1{
@@ -330,13 +330,17 @@ strong {
 
 .highlight_text{
     color: var(--drop-highlight);
-    margin-bottom: 2.7rem;
+    padding: 4rem 0 7rem;
+}
+
+.dropbox_business_start .btn_contact.light{
+    align-self: center;
 }
 
 /* FAQ section */
 
 .faq_divider{
-    padding-bottom: 2.7rem;
+    padding-bottom: 2rem;
     border-bottom: 2px solid var(--drop-light);
 }
 
@@ -345,6 +349,7 @@ strong {
 .footer{
     background-color: var(--drop-dark);
     color: var(--drop-lighter);
+    margin-top: 7rem;
 }
 
 .footer_top{
