@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 body {
@@ -71,20 +71,22 @@ h3 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    
 }
 
 h3 {
     font-size: 1.4rem;
 }
 
+.col4 {
+    width: calc((100% / 12) * 4);
+}
+
 .cal8 {
     width: calc((100% / 12) *8);
 }
 
-.cal4 {
-    width: calc((100% / 12) *4);
-}
 
 .cal12 {
     width: calc((100% / 12) *12)
@@ -103,14 +105,14 @@ h3 {
     flex-wrap: wrap;
 }
 
-.col4 {
-    width: calc((100% / 12) * 4);
-}
-
-a{
+.no_link_style{
     text-decoration: none;
     color: var(--drop-dark);
     padding: 0 1rem;
+}
+
+.fa-check{
+    color: var(--drop-secondary);
 }
 
 /* Debug */
@@ -172,17 +174,16 @@ a{
 
 /* #endregion /Hero */
 /* Plan */
-.section_budiness_plan h2{
-    margin-top: 3rem;
-}
+
 
 .option_billing {
     margin: 2.5rem 0;
 }
 
-[id="annual_billing"] {
+#annual_billing{
     margin-left: 3rem;
 }
+
 
 /*  Card pay plan section */
 .container_plans_option,
@@ -190,16 +191,44 @@ a{
     width: 100%;
 }
 
+.plan_card{
+    margin: 0 1rem 1rem;
+    border: 1px solid var(--drop-dark);
+    padding: 0 1rem;
+}
+
 .card_top{
     text-align: center;
     padding: 0.5rem;
-    border: 1px solid var(--drop-dark);
+    border-bottom: 1px solid var(--drop-dark);
 }
 
 .fa-user{
     font-size: 1.2rem;
 }
 
+.plan_price{
+    padding: 0.5rem 0 0.3rem;
+}
+
+.benefit_list{
+    margin: 3rem 0;
+}
+
+.card_middel>ul{
+    list-style: none;
+    padding-left: 2rem;
+    text-indent: -1rem;
+}
+
+.card_middel>.btn_contact{
+    margin-bottom: 2rem;
+}
+
+hr{
+    background-color: var(--drop-light);
+    margin: 2rem 12.3rem 2rem 0;
+}
 /* section "find a partner" */
 
 .enterprise_plan_top {
@@ -213,11 +242,17 @@ a{
 
 strong {
     display: block;
+    padding: 0.7rem 0 1rem;
 }
 
 .enterprise_plan_bottom>p {
     padding: 2rem 0;
 }
+
+.enterprise_plan_bottom_right>.btn_contact{
+    margin-top: 2rem;
+}
+
 
 .find_partner {
     width: 100%;
