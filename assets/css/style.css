@@ -67,11 +67,11 @@ h1{
 
 h2,
 h3 {
-    padding: 2rem 0 1rem;
+    padding-top: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -147,7 +147,7 @@ a{
 
 /* Main */
 
-/* Hero */
+/* #region Hero */
 .hero {
     background-color: var(--drop-primary);
 }
@@ -157,21 +157,31 @@ a{
 }
 
 .hero_call_to-action button{
-    margin: 2rem 0;
+    margin: 2rem 0 0.3rem;
 }
 
 .fa-arrow-down{
     font-size: 3rem;
-    padding-top: 5.5rem;
+    padding-top: 6rem;
 }
 
 .hero_img {
     width: 100%;
+    margin-bottom: -5rem;
 }
 
-/* /Hero */
+/* #endregion /Hero */
+/* Plan */
+.section_budiness_plan h2{
+    margin-top: 3rem;
+}
+
 .option_billing {
-    margin: 2rem 0;
+    margin: 2.5rem 0;
+}
+
+[id="annual_billing"] {
+    margin-left: 3rem;
 }
 
 /*  Card pay plan section */
