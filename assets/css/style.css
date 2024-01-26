@@ -190,7 +190,15 @@ a{
     width: 100%;
 }
 
+.card_top{
+    text-align: center;
+    padding: 0.5rem;
+    border: 1px solid var(--drop-dark);
+}
 
+.fa-user{
+    font-size: 1.2rem;
+}
 
 /* section "find a partner" */
 
