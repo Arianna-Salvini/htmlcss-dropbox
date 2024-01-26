@@ -357,7 +357,7 @@ strong {
 }
 
 .footer_link{
-    margin: 3rem 0;
+    margin: 2rem 0;
     justify-content: space-between;
 }
 
@@ -381,4 +381,26 @@ li{
     padding: 0.5rem;
     list-style: none;
 }
+
+.footer_rule {
+    width: 10%;
+    background-color: var(--drop-light);
+    color: var(--drop-light);
+    margin: 1rem 0;
+}
+
+.footer_bottom{
+    width: 100%;
+}
+
+option, #lang{
+    background-color: var(--drop-dark);
+    color: var(--drop-lighter);
+    border: none;
+    padding: 2rem 0;
+}
+
+/* footer bottom */
+
+
 /* /Footer */
