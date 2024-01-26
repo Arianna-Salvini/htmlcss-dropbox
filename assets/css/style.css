@@ -333,8 +333,8 @@ strong {
     padding: 4rem 0 7rem;
 }
 
-.dropbox_business_start .btn_contact.light{
-    align-self: center;
+.call_to_action_start>.btn_contact{
+   margin-top: 5rem;
 }
 
 /* FAQ section */
