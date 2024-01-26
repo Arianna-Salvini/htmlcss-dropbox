@@ -60,6 +60,11 @@ main {
     padding-top: 3rem;
 }
 
+h1{
+    font-size: 5rem;
+    padding: 2rem 0;
+}
+
 h2,
 h3 {
     padding: 2rem 0 1rem;
@@ -73,12 +78,16 @@ h3 {
     font-size: 1.4rem;
 }
 
-.left {
+.cal8 {
     width: calc((100% / 12) *8);
 }
 
-.right {
+.cal4 {
     width: calc((100% / 12) *4);
+}
+
+.cal12 {
+    width: calc((100% / 12) *12)
 }
 
 .btn_contact {
@@ -134,11 +143,11 @@ a{
 .right_side{
     justify-content: flex-end;
 }
-
-
 /* /Header */
 
 /* Main */
+
+/* Hero */
 .hero {
     background-color: var(--drop-primary);
 }
@@ -147,6 +156,20 @@ a{
     padding-top: 4rem;
 }
 
+.hero_call_to-action button{
+    margin: 2rem 0;
+}
+
+.fa-arrow-down{
+    font-size: 3rem;
+    padding-top: 5.5rem;
+}
+
+.hero_img {
+    width: 100%;
+}
+
+/* /Hero */
 .option_billing {
     margin: 2rem 0;
 }
@@ -166,7 +189,7 @@ a{
     text-align: center;
 }
 
-.enterprise_plan_bottom.left {
+.enterprise_plan_bottom {
     padding-left: 2.5rem;
 }
 
