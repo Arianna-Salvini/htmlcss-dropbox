@@ -97,7 +97,7 @@ h3{
 }
 
 .debug.col4 {
-    height: 500px;
+    height: 950px;
 }
 
 .debug{
@@ -166,15 +166,15 @@ strong{
 
 .find_partner{
     width: 100%;
-    height: 550px;  
-    overflow: hidden;          /* eliminare */
+    height: 550px;                /* eliminare */
+    padding-bottom: 3rem;
+    overflow: hidden;          
 }
 
 .partner_img{
     height: 100%;
     width: 100%;
     padding-right: 3rem;
-
 }
 
 .light{
