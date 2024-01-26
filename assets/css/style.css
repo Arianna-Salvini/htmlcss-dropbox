@@ -67,12 +67,11 @@ h1{
 
 h2,
 h3 {
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 h2 {
     font-size: 3rem;
-    
 }
 
 h3 {
@@ -83,17 +82,17 @@ h3 {
     width: calc((100% / 12) * 4);
 }
 
-.cal8 {
+.col8 {
     width: calc((100% / 12) *8);
 }
 
 
-.cal12 {
+.col12 {
     width: calc((100% / 12) *12)
 }
 
 .btn_contact {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 0.7rem 2rem;
     color: var(--drop-lighter);
     background-color: var(--drop-secondary);
@@ -169,7 +168,7 @@ h3 {
 
 .hero_img {
     width: 100%;
-    margin-bottom: -5rem;
+    margin-bottom: -5.5rem;
 }
 
 /* #endregion /Hero */
@@ -189,6 +188,8 @@ h3 {
 .container_plans_option,
 .container_how_to {
     width: 100%;
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
 .plan_card{
