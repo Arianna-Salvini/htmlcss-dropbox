@@ -152,6 +152,9 @@ h3 {
     justify-content: flex-end;
 }
 
+button:hover {
+    cursor: pointer;
+}
 /* /Header */
 
 /* Main */
