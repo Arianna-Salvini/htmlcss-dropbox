@@ -200,7 +200,7 @@ h3 {
 .plan_card{
     margin: 2rem 1rem 1rem;
     border: 1px solid var(--drop-dark);
-    padding: 0 1rem;
+    padding: 0 1rem 1rem;
     height: 100%;
 }
 
@@ -343,6 +343,7 @@ strong {
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
+    align-items: unset;
 }
 
 
@@ -382,6 +383,10 @@ strong {
 
 .n8{
     background-color: var(--drop-square8);
+}
+
+#florida_university_logo{
+    object-fit: none;
 }
 
 .central_square{
