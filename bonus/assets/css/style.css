@@ -152,6 +152,11 @@ h3 {
 .right_side {
     justify-content: flex-end;
 }
+
+header {
+    position: fixed;
+    width: 100%;
+}
 /* /Header */
 
 /* Main */
