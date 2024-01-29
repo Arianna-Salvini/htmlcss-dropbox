@@ -461,6 +461,7 @@ strong {
     padding-bottom: 2rem;
     border-bottom: 2px solid var(--drop-light);
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* /Main */

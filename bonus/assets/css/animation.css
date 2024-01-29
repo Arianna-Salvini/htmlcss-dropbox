@@ -20,20 +20,20 @@
     --drop-central-square: #f5f5f5;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.btn_contact{
+.btn_contact {
     transition: background-color 200ms ease-in-out;
 }
 
-.btn_contact:hover{
+.btn_contact:hover {
     background-color: var(--drop-secondary-trasparent);
 }
 
-.light{
-    transition: color 500ms ease-in-out, background-color 500ms ease-in-out, border 500ms ease-in-out ;
+.light {
+    transition: color 500ms ease-in-out, background-color 500ms ease-in-out, border 500ms ease-in-out;
 }
 
 .light:hover {
@@ -41,22 +41,53 @@ html{
     background-color: var(--drop-lighter);
     border: 1px solid var(--drop-dark-trasparent);
 }
+
 /* /Utility */
 
 
 /* Header */
-.no_link_style{
+.no_link_style {
     transition: text-decoation 500ms;
 }
 
 .no_link_style:hover {
-text-decoration: underline 2px ;
-text-underline-offset: 1.7rem;
+    text-decoration: underline 2px;
+    text-underline-offset: 1.7rem;
 }
+
 /* /Header */
 
 
 /* Main */
+
+.accordion {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.accordion:hover .fa-chevron-up{
+    display: inline-block;
+}
+
+.faq_divider:hover .fa-chevron-down {
+    display: none;
+}
+
+.text_answer{
+    display: none;
+}
+
+.accordion:hover .text_answer{
+    display: block;
+    background-color: var(--drop-central-square);
+    padding: 2rem 1rem;
+    border: 1px solid var(--drop-light);
+    transition: all 100ms ease-in-out;
+}
 
 /* /Main */
 
