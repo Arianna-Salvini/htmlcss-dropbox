@@ -4,6 +4,7 @@
     --drop-secondary: #0061ff;
     --drop-secondary-trasparent: #5e9bfe;
     --drop-dark: #000000;
+    --drop-dark-trasparent: #0000005c;
     --drop-lighter: #ffffff;
     --drop-light: #dedede;
     --drop-highlight: #61082b;
@@ -22,6 +23,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 .btn_contact{
     transition: background-color 200ms ease-in-out;
 }
@@ -29,12 +31,21 @@ html{
 .btn_contact:hover{
     background-color: var(--drop-secondary-trasparent);
 }
+
+.light{
+    transition: color 500ms ease-in-out, background-color 500ms ease-in-out, border 500ms ease-in-out ;
+}
+
+.light:hover {
+    color: var(--drop-dark-trasparent);
+    background-color: var(--drop-lighter);
+    border: 1px solid var(--drop-dark-trasparent);
+}
 /* /Utility */
 
 
 /* Header */
 .no_link_style{
-
     transition: text-decoation 500ms;
 }
 
@@ -42,7 +53,6 @@ html{
 text-decoration: underline 2px ;
 text-underline-offset: 1.7rem;
 }
-
 /* /Header */
 
 
