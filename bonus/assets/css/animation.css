@@ -89,6 +89,19 @@ html {
     transition: all 100ms ease-in-out;
 }
 
+.how_to>img, .plan_card {
+    transform: none;
+    transition: transform 200ms;
+}
+
+.how_to>img:hover{
+    transform: scale(1.2);
+}
+.plan_card:hover{
+    transform: scale(1.0.5);
+}
+
+
 /* /Main */
 
 /* Footer */
