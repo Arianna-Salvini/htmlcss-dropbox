@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px dashed black; */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--drop-dark);
+    min-width: 1440px;
+}
+
+main {
+    background-color: var(--drop-lighter);
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+#header,
+#main {
+    background-color: var(--drop-lighter);
+}
+
+#footer {
+    background-color: var(--drop-dark);
+}
+
+/* Utility */
+
+:root {
+    --drop-primary: #b4d0e7;
+    --drop-secondary: #0061ff;
+    --drop-dark: #000000;
+    --drop-lighter: #ffffff;
+    --drop-light: #dedede;
+    --drop-highlight: #61082b;
+    --drop-square1: #a2d39b;
+    --drop-square1-border: #d1e9cd;
+    --drop-square2: #61082b;
+    --drop-square3: #0093ce;
+    --drop-square4: #ff1c1c;
+    --drop-square5: #d5001f;
+    --drop-square6: #b4d0e7;
+    --drop-square7: #0d2481;
+    --drop-square8: #ffd830;
+    --drop-central-square: #f5f5f5;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.container_full_width {
+    width: 100%;
+}
+
+.container_large {
+    width: 98%;
+    margin: auto;
+}
+
+.container_medium {
+    width: calc((100%/12) *8);
+    height: 100%;
+    margin: auto;
+}
+
+.container_small {
+    width: calc((100%/12) *6);
+    margin: auto;
+    padding-top: 2rem;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 2rem 0;
+}
+
+h2 {
+    padding-top: 7rem;
+}
+
+h3 {
+    padding-top: 1.5rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.col4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col8 {
+    width: calc((100% / 12) *8);
+}
+
+.col12 {
+    width: calc((100% / 12) *12);
+    margin: 2rem 0;
+}
+
+.btn_contact {
+    font-size: 0.9rem;
+    padding: 0.8rem 2rem;
+    color: var(--drop-lighter);
+    text-decoration: none;
+    background-color: var(--drop-secondary);
+    border: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no_link_style {
+    text-decoration: none;
+    color: var(--drop-dark);
+    padding: 0 1rem;
+    border-bottom: none;
+}
+
+.fa-check {
+    color: var(--drop-secondary);
+}
+
+.bg_primary {
+    background-color: var(--drop-primary);
+}
+
+.bg_dark {
+    background-color: var(--drop-dark);
+}
+
+/* Header */
+.navigation_bar {
+    height: 70px;
+    width: 50%;
+    align-items: center;
+}
+
+.right_side {
+    justify-content: flex-end;
+}
+/* /Header */
+
+/* Main */
+
+/* #region Hero */
+.hero {
+    background-color: var(--drop-primary);
+}
+
+.hero>.container_medium {
+    padding-top: 4rem;
+}
+
+.hero_call_to-action a {
+    margin: 2rem 0 0.3rem;
+}
+
+.fa-arrow-down {
+    font-size: 3rem;
+    padding: 8rem 0 0.9rem;
+
+}
+
+.hero_img {
+    width: 100%;
+    margin-bottom: -5.5rem;
+}
+
+/* #endregion /Hero */
+/* Plan */
+
+
+.option_billing {
+    margin: 2.5rem 0;
+}
+
+#annual_billing {
+    margin-left: 3rem;
+}
+
+[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/*  #region Card pay plan section */
+.container_plans_option {
+    width: 100%;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.plan_card {
+    margin: 2rem 1rem 1rem;
+    border: 1px solid var(--drop-dark);
+    padding: 0 1rem 1rem;
+    height: 100%;
+}
+
+.card_top {
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--drop-dark);
+}
+
+.fa-user {
+    font-size: 1.2rem;
+}
+
+.plan_price {
+    padding: 0.5rem 0 0.3rem;
+}
+
+.benefit_list {
+    margin: 3rem 0;
+}
+
+.card_middel>ul {
+    list-style: none;
+    padding-left: 2rem;
+    text-indent: -1rem;
+}
+
+.card_middel>.btn_contact, .text_hero{
+    margin-bottom: 2rem;
+}
+
+.buy_now,
+.dismiss_text{
+    padding-top: 3rem ;
+}
+
+hr {
+    background-color: var(--drop-light);
+    margin: 2rem 12.3rem 2rem 0;
+}
+
+
+.enterprise_plan_top {
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.enterprise_plan_bottom, 
+.find_partner_contact,
+.cal4.call_to_action_start
+    {
+    padding-left: 2.5rem;
+}
+
+.cal4.call_to_action_start{
+    padding: 5rem 0;
+}
+
+strong {
+    display: block;
+    padding: 0.7rem 0 1rem;
+}
+
+.enterprise_plan_bottom_right{
+    padding: 2rem 0;
+}
+
+/*  #endregion Card pay plan section */
+
+
+.find_partner {
+    width: 100%;
+
+    padding-bottom: 3rem;
+}
+
+.partner_img {
+    height: 100%;
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.light {
+    color: var(--drop-dark);
+    background-color: var(--drop-lighter);
+    border: 1px solid var(--drop-dark);
+
+}
+
+/* How to */
+.container_how_to {
+    padding-top: 1rem 0;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+}
+
+.how_to_img {
+    width: 100%;
+}
+
+.card_bottom>h4,
+.card_bottom>p,
+.how_to_img {
+    padding: 1rem 1.5rem;
+}
+
+.card_top.how_to {
+    border: none;
+}
+
+/* Call to action */
+
+.findout_title {
+    padding-bottom: 3rem;
+}
+
+/* dropbox business */
+
+.dropbox_business {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.find_partner_contact>p {
+    padding: 1rem 0 2rem;
+}
+
+.find_partner_contact,
+.find_partner_img {
+    padding-top: 5rem;
+}
+
+/* #region Partners */
+
+.row_partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_partners>.col4 {
+    aspect-ratio: 1;
+}
+
+.square_card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+}
+
+
+.partner_logo {
+    width: 60%;
+    filter: invert();
+}
+
+.n1 {
+    background-color: var(--drop-square1);
+    border: 1rem solid var(--drop-square1-border)
+}
+
+.n2 {
+    background-color: var(--drop-square2);
+}
+
+.n3 {
+    background-color: var(--drop-square3);
+}
+
+.n4 {
+    background-color: var(--drop-square4);
+}
+
+.n5 {
+    background-color: var(--drop-square5);
+}
+
+.n6 {
+    background-color: var(--drop-square6);
+}
+
+.n7 {
+    background-color: var(--drop-square7);
+}
+
+.n8 {
+    background-color: var(--drop-square8);
+}
+
+#florida_university_logo {
+    object-fit: none;
+}
+
+.central_square {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: var(--drop-central-square);
+    color: var(--drop-dark);
+}
+
+.designit_logo {
+    margin: 3rem;
+    width: 50%;
+}
+
+.rule_partner_logo_central_square {
+    background-color: var(--drop-light);
+    padding-top: 1px;
+    margin: 0 30rem 3rem 3rem;
+}
+
+.central_square>p {
+    margin: 0 3rem;
+}
+
+.quote {
+    margin: 4rem 3rem;
+}
+
+
+
+/* #endregion Partners */
+
+/* free start section */
+
+.dropbox_business_start {
+    background-color: var(--drop-primary);
+}
+
+.highlight_text {
+    color: var(--drop-highlight);
+    padding: 4rem 0 7rem;
+}
+
+.call_to_action_start>.btn_contact {
+    margin-top: 5rem;
+}
+
+/* FAQ section */
+
+.faq_divider {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--drop-light);
+    justify-content: space-between;
+}
+
+/* /Main */
+/* Footer */
+.footer {
+    background-color: var(--drop-dark);
+    color: var(--drop-lighter);
+    margin-top: 7rem;
+}
+
+.footer_top {
+    padding: 2rem 0;
+}
+
+.footer_link {
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.footer_list a {
+    color: var(--drop-lighter);
+    text-decoration: none;
+}
+
+.footer_link>ul {
+    margin: 0 1rem;
+
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+li {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+.footer_rule {
+    width: 10%;
+    background-color: var(--drop-light);
+    color: var(--drop-light);
+    margin: 1rem 0;
+}
+
+.footer_bottom {
+    width: 100%;
+}
+
+option,
+#lang {
+    background-color: var(--drop-dark);
+    color: var(--drop-lighter);
+    border: none;
+    padding: 2rem 0;
+}
+
+/* footer bottom */
+
+
+/* /Footer */
