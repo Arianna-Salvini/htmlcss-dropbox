@@ -1,0 +1,55 @@
+/* Utility */
+:root {
+    --drop-primary: #b4d0e7;
+    --drop-secondary: #0061ff;
+    --drop-secondary-trasparent: #5e9bfe;
+    --drop-dark: #000000;
+    --drop-lighter: #ffffff;
+    --drop-light: #dedede;
+    --drop-highlight: #61082b;
+    --drop-square1: #a2d39b;
+    --drop-square1-border: #d1e9cd;
+    --drop-square2: #61082b;
+    --drop-square3: #0093ce;
+    --drop-square4: #ff1c1c;
+    --drop-square5: #d5001f;
+    --drop-square6: #b4d0e7;
+    --drop-square7: #0d2481;
+    --drop-square8: #ffd830;
+    --drop-central-square: #f5f5f5;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.btn_contact{
+    transition: background-color 200ms ease-in-out;
+}
+
+.btn_contact:hover{
+    background-color: var(--drop-secondary-trasparent);
+}
+/* /Utility */
+
+
+/* Header */
+.no_link_style{
+
+    transition: text-decoation 500ms;
+}
+
+.no_link_style:hover {
+text-decoration: underline 2px ;
+text-underline-offset: 1.7rem;
+}
+
+/* /Header */
+
+
+/* Main */
+
+/* /Main */
+
+/* Footer */
+
+/* /Footer */

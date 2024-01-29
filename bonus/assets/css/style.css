@@ -171,8 +171,8 @@ h3 {
 
 .fa-arrow-down {
     font-size: 3rem;
+    color: var(--drop-dark);
     padding: 8rem 0 0.9rem;
-
 }
 
 .hero_img {
